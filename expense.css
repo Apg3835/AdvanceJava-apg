@@ -1,0 +1,36 @@
+.container{
+    width: 450px;
+    height: 550px;
+    border: 3px solid rgb(234, 116, 19);
+    background-color: rgb(228, 250, 84);
+    margin: 10px 500px;
+    padding: 8px;
+}
+h1 {
+    color:black;
+    text-align: center;
+  }
+  #Ammount{
+    width: 440px;
+    height: 20px;
+  }
+  #Discription{
+    width: 440px;
+    height: 20px;
+  }
+  #Category{
+    width: 448px;
+    height: 25px;
+  }
+  #fbutton{
+    width: 448px;
+    height: 35px;
+    
+    background-color: rgb(43, 243, 40);
+    
+  }
+  body {
+    background-image: url(email.jpg);
+    background-size: 1400px 750px;
+    background-repeat: no-repeat;
+  }

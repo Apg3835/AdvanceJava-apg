@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="expense.css" />
+    <title>Expense Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>EXPENSE TRACKER</h1>
+      <hr />
+      <form onsubmit="saveToLocalStorage(event)">
+        <b> <label for="ammount">Chose Expense Ammount:</label></b
+        ><br />
+        <input type="text" id="Ammount" name="fammount" value="" required /><br />
+
+        <b> <label for="discription">Chose Discription:</label></b
+        ><br />
+        <input
+          type="text"
+          id="Discription"
+          name="fdiscription"
+          value=""
+          required
+        /><br />
+
+        <b> <label for="category">Chose a Category:</label></b
+        ><br />
+        <select name="fcategory" id="Category">
+          <option value="movies">Movies</option>
+          <option value="electricity">Electricity</option>
+          <option value="food">Food</option>
+          <option value="fuel">Fuel</option></select
+        ><br />
+
+        <div style="padding-top: 10px">
+          <button name="button" id="fbutton" type="submit"><b>ADD EXPENSES</b></button>
+        </div>
+       
+      </form>
+      <ul id="listOfExpenses"></ul>
+    </div>
+    
+    <script src="expenseT.js"></script>
+  </body>
+ 
+</html>
